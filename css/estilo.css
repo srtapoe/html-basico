@@ -1,0 +1,158 @@
+body{
+    font-family: 'Lora', serif;
+    max-width: 2500px;
+}
+
+
+header{
+    text-align: center;
+    font-size: 60px;
+    padding: 15px;
+}
+
+header:hover{
+    color:#fdcae1;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    padding: 15px;
+}
+
+.quote{
+    text-align: center;
+}
+
+.quote p {
+    font-size:25px;
+}
+
+.quote {
+    position: relative;
+}
+
+/* Estilo para a imagem (.quote img) quando o mouse passar por cima */
+.quote img:hover {
+    box-shadow: 0 0 18px #fdcae1; /* Adicionando sombra na imagem */
+    transition: box-shadow 0.3s ease; /* Transição suave para o efeito hover */
+}
+
+
+/* Estilo para o menu suspenso */
+.summary ul {
+    list-style: none;
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+}
+
+.summary li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+/* Estilo para o link principal no menu */
+.summary li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Estilo para o menu suspenso */
+.summary .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Estilo para o link do menu suspenso */
+.summary .dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Estilo para o link do menu suspenso quando passa o mouse por cima */
+.summary .dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Estilo para o item de menu suspenso (com a classe .dropdown) ao passar o mouse por cima */
+.summary .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.information{
+    text-align: justify;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.linha-separadora {
+    border: none;
+    border-top: 1px solid #ccc; /* Estilo da borda superior da linha */
+    margin: 20px 0; /* Margens para espaçamento */
+}
+
+.title:hover{
+    color:#fdcae1;
+}
+
+#others-books {
+    text-align: center; /* Centralizar o conteúdo do section */
+}
+
+.book-images-container {
+    display: flex; /* Usar flexbox para alinhar as imagens */
+    justify-content: center; /* Centralizar as imagens horizontalmente */
+    gap: 60px; /* Espaço entre as imagens */
+}
+
+.book-image {
+    max-width: 200px;
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adicionar transição suave para o efeito hover */
+}
+
+.book-image:hover {
+    transform: scale(1.1); /* Aplicar leve zoom in no efeito hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adicionar sombreamento no efeito hover */
+}
+
+footer {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Estilo para os links no footer */
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer p{
+    color: #ffffff;
+}
+
+/* Estilo para os links no footer ao passar o mouse por cima */
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+.espaco-entre-footer {
+    margin-top: 60px; /* Ajuste a margem conforme necessário para criar a distância desejada */
+}
