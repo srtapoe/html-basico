@@ -189,3 +189,51 @@ footer a:hover {
     background-color: #000000;
     color: white;
 }
+
+/* Estilos base para todos os dispositivos */
+body {
+    font-size: 16px;
+  }
+  
+  /* Estilos para dispositivos com largura de tela até 768px (tablets e celulares em orientação retrato) */
+  @media screen and (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+
+    .quote img{
+       
+        height: 60px;
+      }
+
+      .book-images-container img{
+        width:100px;
+        height: 100px;
+      }
+
+      h1{
+        font-size: 25px;
+      }
+  }
+  
+  /* Estilos para dispositivos com largura de tela até 480px (celulares em orientação retrato) */
+  @media screen and (max-width: 480px) {
+    body {
+      font-size: 12px;
+    }
+  }
+  
+
+  /* Estilos para monitores de largura maior que 1200px */
+@media screen and (min-width: 1200px) {
+    /* Defina estilos específicos para monitores grandes aqui */
+    body {
+        font-size: 20px;
+      }
+
+  
+        h1{
+          font-size: 25px;
+        }
+  }
+  
