@@ -156,3 +156,18 @@ footer a:hover {
 .espaco-entre-footer {
     margin-top: 60px; /* Ajuste a margem conforme necessário para criar a distância desejada */
 }
+
+.footer-content {
+    display: flex; /* Usar flexbox para alinhar os elementos em linha */
+    align-items: center; /* Centralizar verticalmente os elementos */
+    justify-content: center; /* Centralizar horizontalmente os elementos */
+    flex-wrap: wrap; /* Quebrar a linha quando necessário */
+}
+
+.author-info {
+    margin-right: 10px; /* Espaçamento entre o texto e as imagens */
+}
+
+.social-links a {
+    margin: 2px; /* Espaçamento entre as imagens */
+}
