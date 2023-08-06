@@ -171,3 +171,21 @@ footer a:hover {
 .social-links a {
     margin: 2px; /* Espaçamento entre as imagens */
 }
+
+#btn-voltar-topo {
+    display: none; /* Inicialmente oculto */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para o botão ao passar o mouse por cima */
+#btn-voltar-topo:hover {
+    background-color: #000000;
+    color: white;
+}
